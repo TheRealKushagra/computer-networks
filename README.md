@@ -1,30 +1,34 @@
 # Computer Networks
 
-This repository contains C++ programs developed as part of my Computer Networks coursework.
+This repository contains programs and practical assignments implemented as part of my Computer Networks coursework.
 
 ## Programs
 
-### 1. Subnetting
+### 1. Routing
+- `routing.cpp` — Routing-related program implemented in C++.
 
-Identifies the IP address class and displays details such as the default subnet mask, network bits, host bits, number of networks, and hosts per network.
+### 2. Subnetting
+- `subnetting.cpp` — Subnetting-related program implemented in C++.
 
-### 2. Routing
+### 3. UDP Socket Programming
+UDP client-server programs implemented in Python.
 
-Implements Distance Vector Routing using a cost matrix and displays the final routing table for each router, including destination, cost, and next hop.
+- `UDP_server.py` — UDP server program.
+- `UDP_client.py` — UDP client program.
 
-## Language
+### 4. TCP Socket Programming
+TCP client-server programs implemented in Python.
 
-* C++
+- `TCP_server.py` — TCP server program.
+- `TCP_client.py` — TCP client program.
 
-## Concepts Covered
+## Technologies Used
 
-* IP Addressing and Subnetting
-* IP Address Classes
-* Network and Host Identification
-* Distance Vector Routing
-* Routing Tables
-* Next-Hop Calculation
+- C++
+- Python
+- TCP and UDP socket programming
+- Git and GitHub
 
 ## Purpose
 
-These programs were created for learning and practicing fundamental Computer Networks concepts through programming.
+This repository documents my learning and practical implementation of Computer Networks concepts, including routing, subnetting, and client-server communication using network sockets.
