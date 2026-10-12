@@ -22,6 +22,11 @@ TCP client-server programs implemented in Python.
 - `TCP_server.py` — TCP server program.
 - `TCP_client.py` — TCP client program.
 
+### Distance Vector Routing Algorithm (`DSDV.cpp`)
+- Implemented the Distance Vector Routing algorithm in C++ to determine the shortest paths between routers in a network.
+- Displays the initial cost matrix, initial and final routing tables, minimum path costs, next hops, and shortest paths between selected routers.
+- Demonstrates routing table updates based on network link costs.
+
 ## Technologies Used
 
 - C++
